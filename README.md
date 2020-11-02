@@ -54,7 +54,7 @@ ta cũng có:
 (**)=>  GCD(n, (2020*b - a)) = p
 ```
 
-Đến đây ta đã có được p và q. Thế nhưng vẫn chưa thể nào encrypt được, lý do là vì GCD(e, phi) = 4 nên không thể tìm được d sao cho e*d ≡ phi. Vậy ta phải làm như thế nào???
+Đến đây ta đã có được p và q. Thế nhưng vẫn chưa thể nào encrypt được, lý do là vì GCD(e, phi) = 4 nên không thể tìm được d sao cho e*d ≡ 1 mod phi. Vậy ta phải làm như thế nào???
 
 Với dx sao cho (e/4)*dx ≡ 1 mod phi. Ta có:
 ```
