@@ -83,7 +83,7 @@ q = n//p
 dx = inverse(2020//4, (p-1)*(q-1))
 Cx = pow(c, dx, n)
 m = sympy.root(Cx,4)
-print(_long_to_bytes(m))
+print(long_to_bytes(m))
 ```
 
 ### Flag: ASCIS{pl4y1ng_w1th_p_4nd_q_1s_d4ng3r0us}
