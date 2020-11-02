@@ -33,7 +33,7 @@ b = (2020+p)**q mod n (2)
 ```
 Từ (2) ta có: 
 ```
-b ≡ (2020+p)**q mod p (2) (Do n = p*q)
+b ≡ (2020+p)**q mod p (Do n = p*q)
 b ≡ 2020**q mod p
 ```
 Theo định lý Fermat thì: "Nếu p là số nguyên tố và a là số nguyên không chia hết cho p thì a**(p-1) ≡ 1 mod p" thế nên ta có:
