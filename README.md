@@ -62,7 +62,7 @@ Cx ≡ C**dx mod n
 Cx ≡ M**(e*dx) mod n
 Cx ≡ M**4 mod n
 ```
-Do tác giả bài này thương tình nên M**4 < n tức là Cx chính bằng M**4 luôn, ta có thể lấy căn bậc 4 của Cx để tìm lại M. Trong trường hợp các bạn gặp phải M**x > n, các bạn có thể sử dụng thuật toán "Miller Rabin" để giải tiếp nhé.
+Do tác giả bài này thương tình nên M** 4 < n tức là Cx chính bằng M** 4 luôn, ta có thể lấy căn bậc 4 của Cx để tìm lại M. Trong trường hợp các bạn gặp phải M** x > n, các bạn có thể sử dụng thuật toán "Miller Rabin" để giải tiếp nhé.
 
 Dưới đây là code để lấy flag:
 ```python
