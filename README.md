@@ -38,7 +38,7 @@ b ≡ 2020**q mod p
 ```
 Theo định lý Fermat thì: "Nếu p là số nguyên tố và a là số nguyên không chia hết cho p thì a**(p-1) ≡ 1 mod p" thế nên ta có:
 ```
-b ≡ 2020**q * 2020**(p-1) mod p
+     b ≡ 2020**q * 2020**(p-1) mod p
 2020*b ≡ 2020**(p+q) mod p (*)
 ```
 Mặt khác, từ (1) ta có:
@@ -54,7 +54,7 @@ ta cũng có:
 (**)=>  GCD(n, (2020*b - a)) = p
 ```
 
-Đến đây ta đã có được p và q. Thế nhungyw vẫn chưa thể nào encrypt được, lý do là vì GCD(e, phi) = 4 nên không thể tìm được d sao cho e*d ≡ phi. Vậy ta phải làm như thế nào???
+Đến đây ta đã có được p và q. Thế nhưng vẫn chưa thể nào encrypt được, lý do là vì GCD(e, phi) = 4 nên không thể tìm được d sao cho e*d ≡ phi. Vậy ta phải làm như thế nào???
 
 Với dx sao cho (e/4)*dx ≡ 1 mod phi. Ta có:
 ```
